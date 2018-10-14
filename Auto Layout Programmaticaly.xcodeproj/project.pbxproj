@@ -12,6 +12,11 @@
 		F48B76AE2157DE520033A62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48B76AC2157DE520033A62A /* Main.storyboard */; };
 		F48B76B02157DE570033A62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48B76AF2157DE570033A62A /* Assets.xcassets */; };
 		F48B76B32157DE570033A62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48B76B12157DE570033A62A /* LaunchScreen.storyboard */; };
+		F4CFFEC92173493C00E3253F /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFEC82173493C00E3253F /* SwipingController.swift */; };
+		F4CFFECB2173498B00E3253F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFECA2173498B00E3253F /* PageCell.swift */; };
+		F4CFFECF21735C4900E3253F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFECE21735C4900E3253F /* Page.swift */; };
+		F4CFFED1217370A700E3253F /* SwippingControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFED0217370A600E3253F /* SwippingControllerExtension.swift */; };
+		F4CFFED32173713800E3253F /* SwipingControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFED22173713800E3253F /* SwipingControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F48B76AF2157DE570033A62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48B76B22157DE570033A62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48B76B42157DE570033A62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CFFEC82173493C00E3253F /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		F4CFFECA2173498B00E3253F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		F4CFFECE21735C4900E3253F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		F4CFFED0217370A600E3253F /* SwippingControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingControllerExtension.swift; sourceTree = "<group>"; };
+		F4CFFED22173713800E3253F /* SwipingControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				F48B76A82157DE520033A62A /* AppDelegate.swift */,
 				F48B76AA2157DE520033A62A /* ViewController.swift */,
+				F4CFFEC82173493C00E3253F /* SwipingController.swift */,
+				F4CFFECA2173498B00E3253F /* PageCell.swift */,
 				F48B76AC2157DE520033A62A /* Main.storyboard */,
 				F48B76AF2157DE570033A62A /* Assets.xcassets */,
 				F48B76B12157DE570033A62A /* LaunchScreen.storyboard */,
 				F48B76B42157DE570033A62A /* Info.plist */,
+				F4CFFECE21735C4900E3253F /* Page.swift */,
+				F4CFFED0217370A600E3253F /* SwippingControllerExtension.swift */,
+				F4CFFED22173713800E3253F /* SwipingControllerDelegate.swift */,
 			);
 			path = "Auto Layout Programmaticaly";
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CFFED32173713800E3253F /* SwipingControllerDelegate.swift in Sources */,
+				F4CFFED1217370A700E3253F /* SwippingControllerExtension.swift in Sources */,
 				F48B76AB2157DE520033A62A /* ViewController.swift in Sources */,
 				F48B76A92157DE520033A62A /* AppDelegate.swift in Sources */,
+				F4CFFECB2173498B00E3253F /* PageCell.swift in Sources */,
+				F4CFFEC92173493C00E3253F /* SwipingController.swift in Sources */,
+				F4CFFECF21735C4900E3253F /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
